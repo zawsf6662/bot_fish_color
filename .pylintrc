@@ -1,0 +1,24 @@
+[MASTER]
+extension-pkg-allow-list=cv2,win32gui,win32ui,win32con,win32api
+
+[MESSAGES CONTROL]
+# Disable noisy style checks and complexity warnings for this script
+disable=
+    C0114, # missing-module-docstring
+    C0115, # missing-class-docstring
+    C0116, # missing-function-docstring
+    C0103, # invalid-name (e.g. hwndDC)
+    C0301, # line-too-long
+    C0303, # trailing-whitespace
+    C0410, # multiple-imports
+    C0411, # wrong-import-order
+    R0902, # too-many-instance-attributes
+    R0912, # too-many-branches
+    R0914, # too-many-locals
+    R0915, # too-many-statements
+    R1702, # too-many-nested-blocks
+    W0201, # attribute-defined-outside-init
+    W0613, # unused-argument
+
+[FORMAT]
+max-line-length=120
